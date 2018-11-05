@@ -1,0 +1,314 @@
+body {
+  background: #F8FAFB !important;
+  font-family: 'Raleway', sans-serif; }
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  color: #76767C; }
+
+.get-started-container {
+  background: #F8FAFB;
+  height: auto; }
+
+.container.main-content {
+  margin-top: 77px; }
+
+.get-started-heading {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 32px;
+  padding-bottom: 50px;
+  color: #76767C; }
+
+.header {
+  display: block;
+  background: #fff; }
+  .header .logo {
+    width: 19%;
+    margin-left: 99px;
+    position: absolute; }
+  .header .header-image {
+    background-image: url("../images/header.png");
+    height: 200px;
+    background-image: url(../images/header.png);
+    height: 226px;
+    /* right: 20px; */
+    background-position: top right;
+    width: 97%;
+    background-repeat: no-repeat;
+    background-size: contain; }
+
+.main-buttons {
+  margin: auto;
+  text-align: center;
+  display: block; }
+
+button#dropdownMenuButton {
+  background: #fff;
+  border: 3px solid #1E87BC;
+  color: #1E87BC;
+  padding: 10px 54px;
+  margin-bottom: 10px; }
+
+.choiceButton {
+  background: #fff;
+  border: 3px solid #1E87BC;
+  color: #1E87BC;
+  padding: 10px 54px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  width: 250px; }
+
+.choiceButton:active {
+  background-color: #1E87BC; }
+
+.choiceButton:hover {
+  background-color: #1E87BC;
+  cursor: pointer;
+  color: white; }
+
+p {
+  margin: 0 !important; }
+
+.center {
+  text-align: center; }
+
+.choiceTitle {
+  font-size: 30px;
+  text-align: center;
+  color: #5b5b5b;
+  padding-bottom: 30px; }
+
+.numbering {
+  float: right;
+  color: #5b5b5b; }
+
+.msg{
+  color: #5b5b5b;
+}
+
+.bottomSpace {
+  padding: 24px; }
+
+.square-box {
+  width: 70%;
+  overflow: hidden;
+  background: #FFF;
+  margin: auto;
+  padding: 60px;
+  box-shadow: 0px 0px 5px 5px #B8B8B8; }
+
+.locationCard{
+  width: 50%;
+  overflow: hidden;
+  background: #FFF;
+  padding: 24px;
+  box-shadow: 0px 0px 5px 5px rgba(95, 101, 117, 0.1);
+  float:left;
+}
+
+.skillsButton{
+  background: #fff;
+  border: 3px solid #76767C;
+  color: #76767C;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  width: 150px;
+}
+
+.skillsButton:hover {
+  background-color: #1E87BC;
+  cursor: pointer;
+  color: white; }
+
+.buttonLine{
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.locTitle{
+  color: #1E87BC;
+  font-size: 18px;
+}
+
+.pagePadding{
+  padding: 24px;
+}
+
+.titlePadding{
+  padding-right: 125px;
+}
+
+.titlePadding2{
+  padding-right: 120px;
+}
+
+.titlePadding3{
+  padding-right: 40px;
+}
+
+.pie-icon{
+  width: 20%;
+  float:right;
+}
+
+a:hover {
+    color: white;
+    background-color: #1E87BC;
+    cursor: pointer;
+}
+
+button.btn.btn-primary {
+  background: #1E87BC;
+  padding: 10px 93px;
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+  text-align: center; }
+
+button.btn.btn-primary.accessibility-button {
+  background: #fff;
+  border: 3px solid #1E87BC;
+  color: #1E87BC;
+  display: block;
+  position: relative;
+  margin: auto;
+  margin-top: 3%;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px; }
+
+.ear-icon {
+  width: 20%; }
+
+p {
+  margin: 0 !important;
+  font-family: "Raleway", sans-serif; }
+
+.kiosk-container {
+  display: block;
+  text-align: center;
+  padding: 15px 54px;
+  background: #C77F0A;
+  position: fixed;
+  bottom: 0;
+  color: #fff;
+  width: 100%;
+  font-size: 14px; }
+  .kiosk-container .clock-icon {
+    width: 3%;
+    position: relative;
+    right: 156px;
+    display: inline-block;
+    top: 10px; }
+  .kiosk-container .kiosk-information {
+    display: inline-flex;
+    background: #C77F0A; }
+    .kiosk-container .kiosk-information .kiosk-rep-title {
+      width: 51%;
+      text-align: left;
+      position: relative;
+      right: 110px; }
+    .kiosk-container .kiosk-information .kiosk-hours {
+      position: relative;
+      bottom: 10px;
+      position: relative;
+      top: 8px; }
+    .kiosk-container .kiosk-information .kiosk-rep-title, .kiosk-container .kiosk-information .kiosk-hours {
+      display: inline-block;
+      width: auto; }
+    .kiosk-container .kiosk-information .week-hours {
+      padding-right: 50px; }
+  .kiosk-container .kiosk-div {
+    right: 208px;
+    position: relative; }
+
+.header-right {
+  float: right; }
+
+.header2 {
+  background-color: #1E87BC;
+  padding: 10px;
+  font-family: 'Raleway', sans-serif; }
+  .header2 h4, .header2 h2 {
+    display: inline-block;
+    color: #fff;
+    padding-top: 10px; }
+  .header2 :first-child {
+    float: left;
+    margin-top: 7px; }
+  .header2 h2 {
+    width: 50%;
+    text-align: right; }
+  .header2 .speak {
+    padding-right: 25px;
+    display: inline;}
+  .header2 img {
+    display: inline-block; }
+  .header2 .ear-container {
+    width: 15%; }
+  .header2 .ear-container {
+    float: right; }
+  .header2 .ear-icon-white {
+    margin-right: 20px; }
+
+.back-arrow {
+  width: 80px;
+  background: orange;
+  border-radius: 50%;
+  margin: 7px 10px 0 15px; }
+
+.mapouter {
+  float: right; }
+
+.main-buttons .btn.btn-primary a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.portal-section {
+  text-align: center;
+}
+
+.portal-card {
+  background: #1e87bc;
+  color: white;
+  padding: 44px 62px;
+  margin: 30px 50px;
+  display: inline-block;
+}
+
+img.card-image {
+  width: 65%;
+}
+
+.portal-card-text {
+  padding-top: 21px;
+}
+
+.portal-card-text a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.back-to-start {
+  color: #fff;
+  text-decoration: none;
+}
+
+.back-text {
+  margin-bottom: 0;
+  color: #fff;
+  text-decoration: none;
+
+}
+
+.construction-icon {
+  width: 20%;
+}
+
+.construction-button {
+  width: 12%;
+}

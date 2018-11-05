@@ -1,0 +1,8 @@
+happy path:
+	get started > filters > categories > food > categories > jobs
+
+food: 			"http://www.crosministries.org/more.php?CROSpagename=programscontent1_more"
+jobs_training: 	"https://thelordsplace.org/what-we-do/employment-training/"
+shelter: 		"https://www.shelterlistings.org/city/west_palm_beach-fl.html"
+
+keywords: ["main", "services", "language", "espanol"]

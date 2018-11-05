@@ -1,0 +1,25 @@
+{
+  "name": "woco-hack",
+  "version": "1.0.0",
+  "description": "Pure awesome",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/_get-started.scss   css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saraisatiger/woco-hack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saraisatiger/woco-hack/issues"
+  },
+  "homepage": "https://github.com/saraisatiger/woco-hack#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.4",
+    "nodemon": "^1.18.4"
+  }
+}

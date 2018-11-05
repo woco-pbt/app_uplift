@@ -1,0 +1,274 @@
+@import 'globals/_colors.scss';
+@import 'globals/_spacing.scss';
+@import 'globals/_typography.scss';
+
+// Get started page css
+
+body {
+  background: $color-background-gray !important;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-family: $font-family-raleway;
+  color: $color-dark-gray;
+}
+
+.get-started-container {
+  background: $color-background-gray;
+  height: auto;
+}
+
+.container.main-content {
+    margin-top: 77px;
+}
+
+.get-started-heading {
+  text-align: center;
+  font-family: $font-family-raleway;
+  font-size: $base-font-size;
+  padding-bottom: 50px;
+  color: $color-dark-gray;
+}
+
+.header {
+  display: block;
+  background: #fff;
+
+  .logo {
+    width: 19%;
+    margin-left: 99px;
+    position: absolute;
+  }
+
+  .header-image {
+    background-image: url('../images/header.png');
+    height: 200px;
+    background-image: url(../images/header.png);
+    height: 226px;
+    /* right: 20px; */
+    background-position: top right;
+    width: 97%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+.main-buttons {
+  margin: auto;
+  text-align: center;
+  display: block;
+}
+
+button#dropdownMenuButton {
+  background: #fff;
+  border: 3px solid $color-blue;
+  color: $color-blue;
+  padding: $padding-button;
+  margin-bottom: $margin-bottom-small;
+}
+
+.choiceButton {
+  background: #fff;
+  border: 3px solid $color-blue;
+  color: $color-blue;
+  padding: $padding-button;
+  margin-bottom: $margin-bottom-small;
+  border-radius: 4px;
+  width: 250px;
+}
+
+.choiceButton:active {
+    background-color: #1E87BC;
+}
+
+.choiceButton:hover {
+  background-color: #1E87BC;
+  cursor: pointer;
+  color: white;
+}
+
+p {
+  margin: 0 !important;
+}
+
+.center{
+  text-align: center;
+}
+
+.choiceTitle{
+  font-size: 30px;
+  text-align: center;
+  color: #76767C;
+  padding-bottom: 30px;
+}
+
+.numbering{
+  float: right;
+  color: #76767C;
+}
+
+.bottomSpace{
+  padding: 30px;
+}
+
+.square-box{
+    width: 70%;
+    overflow: hidden;
+    background: #FFF;
+    margin: auto;
+    padding:60px;
+    box-shadow: 0px 0px 5px 5px #B8B8B8;
+}
+
+button.btn.btn-primary {
+  background: $color-blue;
+  padding: 10px 93px;
+  display: block;
+  margin: auto;
+  margin-bottom: $margin-bottom-small;
+  text-align: center;
+
+}
+
+button.btn.btn-primary.accessibility-button {
+  background: #fff;
+  border: 3px solid $color-blue;
+  color: $color-blue;
+  display: block;
+  position: relative;
+  margin: auto;
+  margin-top: 9%;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+}
+
+.ear-icon {
+  width: 20%;
+}
+
+p {
+  margin: 0 !important;
+  font-family: $font-family-raleway;
+}
+
+.paddingHead{
+  padding-right: 40px;
+}
+
+.kiosk-container {
+  display: block;
+  text-align: center;
+  padding: 15px 54px;
+  background: #C77F0A;
+  position: fixed;
+  bottom: 0;
+  color: #fff;
+  width: 100%;
+  font-size: 14px;
+
+  .clock-icon {
+    width: 3%;
+    position: relative;
+    right: 156px;
+    display: inline-block;
+    top: 10px;
+    // background: $color-orange;
+
+  }
+
+  .kiosk-information {
+    display: inline-flex;
+    background: #C77F0A;
+
+    .kiosk-rep-title {
+      width: 51%;
+      text-align: left;
+      position: relative;
+      right: 110px;
+    }
+
+    .kiosk-hours {
+      position: relative;
+      bottom: 10px;
+      position: relative;
+      top: 8px;
+    }
+
+    .kiosk-rep-title, .kiosk-hours {
+      display: inline-block;
+      width: auto;
+
+    }
+
+
+    .week-hours {
+      padding-right: 50px;
+    }
+  }
+
+  .kiosk-div {
+    right: 208px;
+    position: relative;
+  }
+
+
+
+}
+
+.header-right {
+  float: right;
+}
+
+
+.header2 {
+  background-color: #1E87BC;
+  padding: 10px;
+  font-family: 'Raleway', sans-serif;
+
+  h4, h2 {
+    display: inline-block;
+    color: #fff;
+    padding-top: 10px;
+  }
+
+  :first-child {
+    float: left;
+    margin-top: 7px;
+  }
+
+  h2 {
+    width: 50%;
+    text-align: right;
+  }
+
+  .speak {
+    padding-right: 25px;
+  }
+
+  img {
+    width: 15%;
+    display: inline-block;
+   }
+
+   .ear-container {
+     float: right;
+   }
+
+   .ear-icon-white {
+    margin-right: 20px;
+   }
+}
+
+.back-arrow {
+  width:80px;
+  background: orange;
+  border-radius: 50%;
+  margin: 7px 10px 0 15px;
+}
+
+.mapouter {
+  float: right;
+}
